@@ -1,4 +1,4 @@
-# MERN E-COMMERCE
+# DockerizePriceSpot
 
 Hi! My name is **Malik Hashim**,
 
