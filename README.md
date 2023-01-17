@@ -1,6 +1,6 @@
 # MERN E-COMMERCE
 
-Hi! My name is **Taimoor Mansha**,
+Hi! My name is **Malik Hashim**,
 
 # Prerequisite
 
