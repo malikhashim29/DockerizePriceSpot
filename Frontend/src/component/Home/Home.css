@@ -23,6 +23,40 @@
   font: 300 1.4vmax "Lucida Sans";
 }
 
+.ban1 {  
+  /* background-image: url("../../images/banner1.jpg");  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vmin; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.ban1 > h1 {
+  margin: 5vmax;
+  color: black;
+  font: 600 2.5vmax "Roboto";
+}
+
+.ban1 > p {
+  color: black;
+  font: 300 1.4vmax "Lucida Sans";
+  margin-left:100px;
+  margin-right:100px;
+  margin-top:10px;
+}
+
+.ban2 {  
+  background-image: url("../../images/img11.png"); 
+
+  margin:20px;
+}
+
 .banner > a > button {
   margin-bottom: 5vmax;
   cursor: pointer;
