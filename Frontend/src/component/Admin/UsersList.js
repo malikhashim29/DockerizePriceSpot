@@ -119,23 +119,73 @@ const UsersList = ({ history }) => {
 
   return (
     <Fragment>
-      <MetaData title={`ALL USERS - Admin`} />
+      <div className="row">
+        <div className="col-sm-2"></div>
+        <div className="col-sm-8">
+          <MetaData title={`ALL USERS - Admin`} />
+          <div className="dashboard">
+            <SideBar />
+            <div className="productListContainer">
+              <h1 id="productListHeading" style={{ color: "white" }}>
+                ALL USERS
+              </h1>
 
-      <div className="dashboard">
-        <SideBar />
-        <div className="productListContainer">
-          <h1 id="productListHeading">ALL USERS</h1>
-
-          <DataGrid
-            rows={rows}
-            columns={columns}
-            pageSize={10}
-            disableSelectionOnClick
-            className="productListTable"
-            autoHeight
-          />
+              <DataGrid
+                rows={rows}
+                columns={columns}
+                pageSize={10}
+                disableSelectionOnClick
+                className="productListTable"
+                autoHeight
+              />
+            </div>
+          </div>
         </div>
+        <div className="col-sm-2"></div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </Fragment>
   );
 };

@@ -1,13 +1,21 @@
 .contactContainer {
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
   max-width: 100%;
   display: grid;
   place-items: center;
-  background-color: white;
   position: fixed;
 }
-
+.MuiButton-label {
+  height: 24rem !important;
+  margin-left: -52rem;
+  width: -1 !important;
+  color: #ffffff;
+}
+.bootstrapCard {
+  max-width: 22rem;
+  height: 345px;
+}
 .mailBtn {
   text-decoration: none;
   transform: translateX(-100vw);
@@ -25,4 +33,36 @@
   to {
     transform: translateX(0);
   }
+}
+.contact {
+  background-image: url(https://pronto-core-cdn.prontomarketing.com/2/wp-content/uploads/sites/2331/2017/04/masthead-contact-us.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.boldsize {
+  font-size: 3rem;
+  color: #ffffff;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+.boldsize1 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+
+.leftFooter > img {
+  margin-top: 1%;
+  /* margin-left: 80rem; */
+  cursor: pointer;
+}
+
+.leftFooter {
+  width: 20%;
+  margin-left: 38rem;
 }

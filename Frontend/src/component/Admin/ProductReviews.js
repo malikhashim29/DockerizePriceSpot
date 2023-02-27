@@ -130,10 +130,11 @@ const ProductReviews = ({ history }) => {
   return (
     <Fragment>
       <MetaData title={`ALL REVIEWS - Admin`} />
-
       <div className="dashboard">
         <SideBar />
+
         <div className="productReviewsContainer">
+          <br /> <br />
           <form
             className="productReviewsForm"
             onSubmit={productReviewsSubmitHandler}
@@ -161,7 +162,6 @@ const ProductReviews = ({ history }) => {
               Search
             </Button>
           </form>
-
           {reviews && reviews.length > 0 ? (
             <DataGrid
               rows={rows}
@@ -176,6 +176,11 @@ const ProductReviews = ({ history }) => {
           )}
         </div>
       </div>
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+      <br /> <br /> <br /> <br />
     </Fragment>
   );
 };

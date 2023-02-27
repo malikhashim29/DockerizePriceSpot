@@ -63,7 +63,7 @@
 
 .shippingBtn {
   border: none;
-  background-color: tomato;
+  background-color: rgba(0, 0, 0, 0.623);
   color: white;
   font: 300 1vmax "Roboto";
   width: 100%;
@@ -108,4 +108,25 @@
     font: 300 4vw "Roboto";
     padding: 4vw;
   }
+}
+.MuiPaper-root {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #343333;
+}
+.MuiStepLabel-label.MuiStepLabel-completed {
+  /* color: #ffffff !important; */
+  font-weight: 500;
+}
+.MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel {
+  /* color: #ffffff !important; */
+}
+.MuiTypography-body1 {
+  color: #ffffff !important;
+}
+.MuiStepper-alternativeLabel {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.MuiPaper-root {
+  color: rgba(0, 0, 0, 0.87) !important;
 }

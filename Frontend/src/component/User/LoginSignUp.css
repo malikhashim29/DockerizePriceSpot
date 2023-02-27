@@ -5,8 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(231, 231, 231);
-  position: fixed;
+  background-color: rgba(0, 0, 0, 0.22);
+  /* position: fixed; */
   top: 0%;
   left: 0;
 }
@@ -32,17 +32,22 @@
   width: 100%;
 }
 .login_signUp_toggle > p:hover {
-  color: tomato;
+  color: rgba(5, 2, 2, 0.552);
 }
 
 .LoginSignUpBox > div > button {
-  background-color: tomato;
+  background-color: rgba(5, 2, 2, 0.552);
   height: 3px;
   width: 50%;
   border: none;
   transition: all 0.5s;
 }
-
+.logotoP > img {
+  height: 60px;
+  width: 190px;
+  margin-left: 26%;
+  margin-top: 8%;
+}
 .loginForm,
 .signUpForm {
   display: flex;
@@ -127,7 +132,7 @@
 .loginBtn,
 .signUpBtn {
   border: none;
-  background-color: tomato;
+  background-color: rgba(5, 2, 2, 0.552);
   color: white;
   font: 300 0.9vmax "Roboto";
   width: 100%;
@@ -141,7 +146,7 @@
 
 .loginBtn:hover,
 .signUpBtn:hover {
-  background-color: rgb(179, 66, 46);
+  background-color: rgba(5, 2, 2, 0.552);
 }
 
 .shiftToLeft {

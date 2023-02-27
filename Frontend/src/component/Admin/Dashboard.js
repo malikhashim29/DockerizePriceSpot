@@ -68,15 +68,20 @@ const Dashboard = () => {
       <MetaData title="Dashboard - Admin Panel" />
       <Sidebar />
 
-      <div className="dashboardContainer">
-        <Typography component="h1">Dashboard</Typography>
+      <div id="dashboard" className="dashboardContainer">
+        {/* <Typography component="h1">Dashboard</Typography> */}
+        <div className="row rowDashboard">
+          <h1>Dashboard</h1>
+
+          <p id="totalAmount">Total Amount = ${totalAmount}</p>
+        </div>
 
         <div className="dashboardSummary">
-          <div>
+          {/* <div>
             <p>
               Total Amount <br /> ${totalAmount}
             </p>
-          </div>
+          </div> */}
           <div className="dashboardSummaryBox2">
             <Link to="/admin/products">
               <p>Product</p>
@@ -93,12 +98,13 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="lineChart">
-          <Line data={lineState} />
-        </div>
-
-        <div className="doughnutChart">
-          <Doughnut data={doughnutState} />
+        <div className="rowDashboard">
+          <span id="lineDash">
+            <Line data={lineState} />
+          </span>
+          <span id="doughnutDash">
+            <Doughnut data={doughnutState} />
+          </span>
         </div>
       </div>
     </div>

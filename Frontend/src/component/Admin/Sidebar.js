@@ -15,10 +15,10 @@ import RateReviewIcon from "@material-ui/icons/RateReview";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <Link to="/">
+      {/* <Link to="/">
         <img src={logo} alt="Ecommerce" />
-      </Link>
-      <Link to="/admin/dashboard">
+      </Link> */}
+      <Link to="/admin/dashboard" style={{ marginLeft: "13%" }}>
         <p>
           <DashboardIcon /> Dashboard
         </p>

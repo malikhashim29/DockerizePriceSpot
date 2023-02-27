@@ -43,6 +43,7 @@ import ProductReviews from "./component/Admin/ProductReviews";
 import Contact from "./component/layout/Contact/Contact";
 import About from "./component/layout/About/About";
 import NotFound from "./component/layout/Not Found/NotFound";
+import UpdatedFooter from "./component/layout/UpdatedFooter/UpdatedFooter";
 
 function App() {
   const { isAuthenticated, user } = useSelector((state) => state.user);
@@ -67,7 +68,7 @@ function App() {
     getStripeApiKey();
   }, []);
 
-  window.addEventListener("contextmenu", (e) => e.preventDefault());
+  // window.addEventListener("contextmenu", (e) => e.preventDefault());
 
   return (
     <>
@@ -78,7 +79,7 @@ function App() {
 
         {stripeApiKey && (
           <Elements stripe={loadStripe(stripeApiKey)}>
-            <ProtectedRoute exact path="/process/payment" component={Payment} />
+            <Route exact path="/process/payment" component={Payment} />
           </Elements>
         )}
 
@@ -94,11 +95,11 @@ function App() {
 
           <Route exact path="/about" component={About} />
 
-          <ProtectedRoute exact path="/account" component={Profile} />
+          <Route exact path="/account" component={Profile} />
 
-          <ProtectedRoute exact path="/me/update" component={UpdateProfile} />
+          <Route exact path="/me/update" component={UpdateProfile} />
 
-          <ProtectedRoute exact path="/password/update" component={UpdatePassword} />
+          <Route exact path="/password/update" component={UpdatePassword} />
 
           <Route exact path="/password/forgot" component={ForgotPassword} />
 
@@ -108,103 +109,52 @@ function App() {
 
           <Route exact path="/cart" component={Cart} />
 
-          <ProtectedRoute exact path="/shipping" component={Shipping} />
+          <Route exact path="/shipping" component={Shipping} />
 
-          <ProtectedRoute exact path="/success" component={OrderSuccess} />
+          <Route exact path="/success" component={OrderSuccess} />
 
-          <ProtectedRoute exact path="/orders" component={MyOrders} />
+          <Route exact path="/orders" component={MyOrders} />
 
-          <ProtectedRoute exact path="/order/confirm" component={ConfirmOrder} />
+          <Route exact path="/order/confirm" component={ConfirmOrder} />
 
-          <ProtectedRoute exact path="/order/:id" component={OrderDetails} />
+          <Route exact path="/order/:id" component={OrderDetails} />
 
+          <Route exact path="/vendor/dashboard" component={VendorDashboard} />
 
-          <ProtectedRoute
-            isVendor={true}
-            exact
-            path="/vendor/dashboard"
-            component={VendorDashboard}
-          />
+          <Route exact path="/admin/dashboard" component={Dashboard} />
 
-          <ProtectedRoute
-            isAdmin={true}
-            exact
-            path="/admin/dashboard"
-            component={Dashboard}
-          />
+          <Route exact path="/admin/products" component={ProductList} />
+          <Route exact path="/admin/product" component={NewProduct} />
 
-          <ProtectedRoute
-            exact
-            path="/admin/products"
-            isAdmin={true}
-            component={ProductList}
-          />
-          <ProtectedRoute
-            exact
-            path="/admin/product"
-            isAdmin={true}
-            component={NewProduct}
-          />
+          <Route exact path="/admin/product/:id" component={UpdateProduct} />
+          <Route exact path="/admin/orders" component={OrderList} />
 
-          <ProtectedRoute
-            exact
-            path="/admin/product/:id"
-            isAdmin={true}
-            component={UpdateProduct}
-          />
-          <ProtectedRoute
-            exact
-            path="/admin/orders"
-            isAdmin={true}
-            component={OrderList}
-          />
+          <Route exact path="/admin/order/:id" component={ProcessOrder} />
+          <Route exact path="/admin/users" component={UsersList} />
 
-          <ProtectedRoute
-            exact
-            path="/admin/order/:id"
-            isAdmin={true}
-            component={ProcessOrder}
-          />
-          <ProtectedRoute
-            exact
-            path="/admin/users"
-            isAdmin={true}
-            component={UsersList}
-          />
+          <Route exact path="/admin/user/:id" component={UpdateUser} />
 
-          <ProtectedRoute
-            exact
-            path="/admin/user/:id"
-            isAdmin={true}
-            component={UpdateUser}
-          />
-
-          <ProtectedRoute
-            exact
-            path="/admin/reviews"
-            isAdmin={true}
-            component={ProductReviews}
-          />
+          <Route exact path="/admin/reviews" component={ProductReviews} />
 
           <Route
-            component={
-              window.location.pathname === "/process/payment" ? null : NotFound
-            }
+          // component={
+          //   window.location.pathname === "/process/payment" ? null : NotFound
+          // }
           />
         </Switch>
 
-        <Footer />
+        {/* <Footer /> */}
+        <UpdatedFooter />
 
         {/* WhatsApp icon */}
         <a
-          href="https://wa.me/923315576075"
+          href="https://wa.me/923455240889"
           className="whatsapp_float"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i class="fa fa-whatsapp whatsapp-icon"></i>
         </a>
-
       </Router>
     </>
   );

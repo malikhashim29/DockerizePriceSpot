@@ -1,7 +1,6 @@
 .banner {
-  
-  background-image: url("../../images/fron.jpeg");
-  background-position: center;
+  background-image: url("../../images/DOCKEERIZE.png");
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vmin;
@@ -10,7 +9,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .banner > h1 {
@@ -23,7 +22,7 @@
   font: 300 1.4vmax "Lucida Sans";
 }
 
-.ban1 {  
+.ban1 {
   /* background-image: url("../../images/banner1.jpg");  */
   background-position: center;
   background-repeat: no-repeat;
@@ -35,6 +34,7 @@
   align-items: center;
   justify-content: center;
   color: white;
+  color: #ffffff;
 }
 
 .ban1 > h1 {
@@ -44,19 +44,23 @@
 }
 
 .ban1 > p {
-  color: black;
   font: 300 1.4vmax "Lucida Sans";
-  margin-left:100px;
-  margin-right:100px;
-  margin-top:10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  font-family: sans-serif;
 }
 
-.ban2 {  
-  background-image: url("../../images/img11.png"); 
+.ban2 {
+  background-image: url("../../images/details\ \(1\).png");
 
-  margin:20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
 }
-
+body {
+  background-color: rgb(43, 41, 41);
+}
 .banner > a > button {
   margin-bottom: 5vmax;
   cursor: pointer;
@@ -77,11 +81,20 @@
   content: "";
   width: 100vw;
   height: 100vmin;
-  background-color: #ffffff;
+  background-color: #d1d1d1;
   position: absolute;
   top: 0%;
   left: 0;
-  clip-path: polygon(16% 75%, 13% 100%, 20% 87%, 18% 100%, 0 100%, 0 98%, 5% 83%, 5% 99%);
+  clip-path: polygon(
+    16% 75%,
+    13% 100%,
+    20% 87%,
+    18% 100%,
+    0 100%,
+    0 98%,
+    5% 83%,
+    5% 99%
+  );
   max-width: 100%;
 }
 
@@ -89,11 +102,11 @@
   text-align: center;
   font-family: Roboto;
   font-size: 1.4vmax;
-  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  border-bottom: 1px solid #ffffff;
   width: 20vmax;
   padding: 1vmax;
   margin: 5vmax auto;
-  color: rgb(0, 0, 0, 0.7);
+  color: #ffffff;
 }
 
 .container {
@@ -110,7 +123,7 @@
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: rgb(48, 48, 48);
+  color: #ffffff;
   margin: 2vmax;
   transition: all 0.5s;
   padding-bottom: 0.5vmax;
@@ -170,4 +183,21 @@
     margin: 0 0.5vmax;
     font: 300 1vmax "Roboto";
   }
+}
+.sec1 {
+  background-image: url("../../images/DOCKEERIZE.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.CarouselItem {
+  height: 50% !important;
+}
+.logoTop > img {
+  height: 60%;
+  width: 100%;
+}
+.logoTop1 > img {
+  height: 50%;
+  width: 100%;
 }

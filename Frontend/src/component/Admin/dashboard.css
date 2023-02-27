@@ -9,13 +9,13 @@
 .dashboardContainer {
   border-left: 1px solid rgba(0, 0, 0, 0.13);
   background-color: rgb(255, 255, 255);
-  padding: 3rem 0;
+  padding: 5%;
 }
 
 .dashboardContainer > h1 {
   color: rgba(0, 0, 0, 0.733);
   font: 300 2rem "Roboto";
-  text-align: center;
+  text-align: left;
   width: 50%;
   padding: 1.5rem;
   margin: auto;
@@ -46,10 +46,10 @@
   background-color: rgb(255, 233, 174);
   text-decoration: none;
   padding: 1.5rem;
-  width: 10vmax;
-  height: 10vmax;
+  width: 11vmax;
+  height: 11vmax;
   margin: 2rem;
-  border-radius: 100%;
+  border-radius: 4%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,4 +94,31 @@
     margin: 1rem;
     font: 300 0.9rem "Roboto";
   }
+}
+
+.rowDashboard {
+  display: flex;
+}
+
+.rowDashboard #totalAmount {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+}
+
+#lineDash {
+  display: block;
+  box-sizing: border-box;
+  height: 20rem;
+  width: 35rem;
+}
+#doughnutDash {
+  display: flex;
+  margin-left: 13%;
+  height: 15rem;
+  width: 20rem;
+  justify-content: center;
+}
+#dashboard {
+  background-color: whitesmoke;
 }

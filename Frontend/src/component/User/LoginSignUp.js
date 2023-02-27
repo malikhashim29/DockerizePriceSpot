@@ -8,7 +8,7 @@ import FaceIcon from "@material-ui/icons/Face";
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, login, register } from "../../actions/userAction";
 import { useAlert } from "react-alert";
-
+import logo from "../../images/PriceSpo.png";
 const LoginSignUp = ({ history, location }) => {
   const dispatch = useDispatch();
   const alert = useAlert();
@@ -113,6 +113,9 @@ const LoginSignUp = ({ history, location }) => {
                   <p onClick={(e) => switchTabs(e, "register")}>REGISTER</p>
                 </div>
                 <button ref={switcherTab}></button>
+              </div>
+              <div className="logotoP">
+                <img src={logo} alt="logo" />
               </div>
               <form className="loginForm" ref={loginTab} onSubmit={loginSubmit}>
                 <div className="loginEmail">

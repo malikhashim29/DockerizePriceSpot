@@ -5,14 +5,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(231, 231, 231);
-  position: fixed;
+  background-color: rgba(0, 0, 0, 0.192);
+  /* position: fixed; */
   top: 0%;
   left: 0;
 }
 
 .updateProfileBox {
-  background-color: white;
+  background-color: rgb(68, 68, 68);
   width: 25vw;
   height: 70vh;
   box-sizing: border-box;
@@ -21,10 +21,10 @@
 
 .updateProfileHeading {
   text-align: center;
-  color: rgba(0, 0, 0, 0.664);
+  color: #ffffff;
   font: 400 1.3vmax "Roboto";
   padding: 1.3vmax;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  border-bottom: 1px solid #ffffff;
   width: 50%;
   margin: auto;
 }
@@ -94,7 +94,7 @@
 
 .updateProfileBtn {
   border: none;
-  background-color: tomato;
+  background-color: rgb(69, 65, 64);
   color: white;
   font: 300 0.9vmax "Roboto";
   width: 100%;
@@ -107,7 +107,7 @@
 }
 
 .updateProfileBtn:hover {
-  background-color: rgb(179, 66, 46);
+  background-color: rgb(30, 29, 29);
 }
 
 @media screen and (max-width: 600px) {
