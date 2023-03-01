@@ -33,7 +33,7 @@ const UpdatedFooter = () => {
                     className="me-2"
                     style={{ color: "white" }}
                   />{" "}
-                  &nbsp; &nbsp; New York,
+                  &nbsp; &nbsp; Islamabad,Pakistan
                 </p>{" "}
                 <br />
                 <p className="whiteColor ">
@@ -42,7 +42,7 @@ const UpdatedFooter = () => {
                     className="me-3"
                     style={{ color: "white" }}
                   />{" "}
-                  &nbsp; &nbsp; info@example.com
+                  &nbsp; &nbsp; dockerize@gmail.com
                 </p>{" "}
                 <br />
                 <p className="whiteColor ">
@@ -51,7 +51,7 @@ const UpdatedFooter = () => {
                     className="me-3"
                     style={{ color: "white" }}
                   />{" "}
-                  &nbsp; &nbsp; + 01 234 567 88
+                  &nbsp; &nbsp; +92 331 5576075
                 </p>{" "}
                 <br />
               </MDBCol>
@@ -70,7 +70,7 @@ const UpdatedFooter = () => {
                 <br />
                 <p className="whiteColor ">
                   <MDBIcon className="me-2" style={{ color: "white" }} />{" "}
-                  Dockrize
+                  Dockerize
                 </p>{" "}
                 <br />
                 <p className="whiteColor ">

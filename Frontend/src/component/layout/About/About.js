@@ -32,6 +32,7 @@ const About = () => {
           <Typography
             variant="h4"
             component="div"
+            color="rgb(190, 0, 0)"
             style={{ display: "flex", justifyContent: "center" }}
           >
             About Dockerize PriceSpot
@@ -51,30 +52,29 @@ const About = () => {
               fontFamily: "popins",
             }}
           >
-            Faiz and Hashim are the proud owners of a marketing company that
+            Faiez and Hashim are the proud owners of a marketing company that
             specializes in the sale of mobile phones and laptops.
             <br />
             The company is a well-known name in the market and has earned an
-            excellent reputation for its quality products, exceptional <br />
-            customer service, and competitive prices.The company has been in
-            operation for several years, and under the leadership of <br /> Faiz
+            excellent reputation for its quality products, exceptional customer
+            service, and competitive prices.The company has been in
+            operation for several years, and under the leadership of <br /> Faiez
             and Hashim, it has grown and expanded considerably. They have a team
             of skilled and experienced professionals who are
-            <br /> committed to providing the best products and services to
+            committed to providing the best products and services to
             their customers. Their customer-centric approach has been a
             significant
-            <br /> factor in their success, and they have earned the trust and
-            loyalty of their clients.Faiz and Hashim's marketing company is a
-            shining <br /> example of what can be achieved with dedication, hard
+             factor in their success, and they have earned the trust and
+            loyalty of their clients.<br />Faiez and Hashim's marketing company is a
+            shining  example of what can be achieved with dedication, hard
             work, and a commitment to excellence. Their passion for providing
-            high-quality
-            <br /> products and services has earned them a loyal customer base
+            high-quality products and services has earned them a loyal customer base
             and a well-deserved reputation for excellence in the market
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" className="marginright">
-            Contact us: +92 331 5576075
+          Contact us: +92 331 5576075
           </Button>
         </CardActions>
         <br />

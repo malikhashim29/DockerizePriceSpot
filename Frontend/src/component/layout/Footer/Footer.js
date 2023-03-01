@@ -57,18 +57,17 @@ const Footer = () => {
               </div>
               <br />
               <p>
-                <MDBIcon icon="home" className="me-2" /> &nbsp; &nbsp; New York,
-                NY 10012, US
+                <MDBIcon icon="home" className="me-2" /> &nbsp; &nbsp; Islamabad, Pakistan
               </p>{" "}
               <br />
               <p>
                 <MDBIcon icon="envelope" className="me-3" /> &nbsp; &nbsp;
-                info@example.com
+                dockerizepricespot@gmail.com
               </p>{" "}
               <br />
               <p>
-                <MDBIcon icon="phone" className="me-3" /> &nbsp; &nbsp; + 01 234
-                567 88
+                <MDBIcon icon="phone" className="me-3" /> &nbsp; &nbsp; +92 331 5576075
+                
               </p>{" "}
               <br />
             </MDBCol>
@@ -78,7 +77,7 @@ const Footer = () => {
               <h2 className="text-uppercase fw-bold mb-4">Company</h2>
               <br />
               <p>
-                <MDBIcon className="me-2" /> Dockrize
+                <MDBIcon className="me-2" /> Dockerize Website
               </p>{" "}
               <br />
               <p>
@@ -148,7 +147,7 @@ const Footer = () => {
       >
         © 2021 Copyright:
         <a className="text-reset fw-bold">
-          <strong> Dockerize</strong>
+          <strong> DockerizePriceSpot</strong>
         </a>
       </div>
     </MDBFooter>
